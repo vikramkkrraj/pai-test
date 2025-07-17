@@ -1,5 +1,5 @@
 import express from 'express';
-import dotenv from 'dotenv';
+import dotenv from 'dotenv/config';
 import cors from 'cors';
 import { connectDB } from './config/db.js';
 
@@ -7,15 +7,21 @@ import authRoutes from './routes/auth.routes.js';
 import skillRoutes from './routes/skill.routes.js';
 import sprintRoutes from './routes/sprint.routes.js';
 import statsRoutes from './routes/stats.routes.js';
+import userRoutes from './routes/user.routes.js';
 
-dotenv.config();
+
 connectDB();
 
 const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.use('/auth', authRoutes);
+app.get("/", (req,res) => {
+  res.json("hello there")
+})
+
+app.use('/api/auth', authRoutes);
+app.use('/api/users', userRoutes);
 app.use('/api/skills', skillRoutes);
 app.use('/api/sprints', sprintRoutes);
 app.use('/api/stats', statsRoutes);

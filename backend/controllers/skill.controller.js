@@ -15,6 +15,6 @@ export const deleteSkill = async (req, res) => {
   if (!skill || skill.owner.toString() !== req.user._id.toString())
     return res.status(403).json({ message: 'Unauthorized' });
 
-  await skill.remove();
+  await skill.deleteOne();
   res.json({ message: 'Skill deleted' });
 };

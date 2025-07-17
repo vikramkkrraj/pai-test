@@ -5,6 +5,8 @@ import SprintOverview from './pages/SprintOverview';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import { useTheme } from './context/ThemeContext';
+import AssignSprint from './pages/AssignSprint';
+
 
 const App = () => {
   const { theme, toggleTheme } = useTheme();
@@ -23,6 +25,7 @@ const App = () => {
         <nav>
           <Link to="/">Skills</Link>
           <Link to="/sprints">Sprints</Link>
+          <Link to="/assign-sprint">Assign Sprint</Link>
           <Link to="/login">Login</Link>
           <Link to="/signup">Signup</Link>
           <button onClick={logout}>Logout</button>
@@ -31,6 +34,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<SkillManager />} />
         <Route path="/sprints" element={<SprintOverview />} />
+        <Route path="/assign-sprint" element={<AssignSprint />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
       </Routes>
