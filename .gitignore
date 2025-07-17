@@ -1,0 +1,32 @@
+# === macOS ===
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# === Node.js / Express (backend) ===
+backend/node_modules/
+backend/.env
+backend/dist/
+backend/build/
+backend/public/temp/
+backend/uploads/
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+
+# === React / Vite (frontend) ===
+frontend/node_modules/
+frontend/.env
+frontend/dist/
+frontend/.vite/
+
+# === Logs ===
+*.log
+logs
+*.log.*
+
+# === OS Files ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
