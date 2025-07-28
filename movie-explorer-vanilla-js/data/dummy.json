@@ -1,0 +1,34 @@
+[
+  {
+    "imdbID": "tt0133093",
+    "Title": "The Matrix",
+    "Year": "1999",
+    "Genre": "Action, Sci-Fi",
+    "Plot": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3NjAtNDQxYS00NDFlLTgwN2UtN2FkZTE3YzdiMTk3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
+  },
+  {
+    "imdbID": "tt4154796",
+    "Title": "Avengers: Endgame",
+    "Year": "2019",
+    "Genre": "Action, Adventure, Drama",
+    "Plot": "After the devastating events of Avengers: Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTc5MDE1NDgyMF5BMl5BanBnXkFtZTgwNzY1OTk5NzM@._V1_SX300.jpg"
+  },
+  {
+    "imdbID": "tt1375666",
+    "Title": "Inception",
+    "Year": "2010",
+    "Genre": "Action, Adventure, Sci-Fi",
+    "Plot": "A thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNl5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg"
+  },
+  {
+    "imdbID": "tt0816692",
+    "Title": "Interstellar",
+    "Year": "2014",
+    "Genre": "Adventure, Drama, Sci-Fi",
+    "Plot": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMjIxNTU4MzY4MF5BMl5BanBnXkFtZTgwMzM4ODI3MjE@._V1_SX300.jpg"
+  }
+]
